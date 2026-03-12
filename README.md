@@ -2,7 +2,7 @@
 
 This repository contains the implementation of the pilot integration project described in the LASDiGov 2026 experience report. The pilot addresses a real healthcare integration workflow in the city of Santa Rosa, southern Brazil, involving three digital services: **Health Registry Service**, **Hospital Service**, and **Messaging Service**. The goal is to protect sensitive patient data while they are being processed by the Integration Process, not only while they are transmitted over the network.
 
-The solution executes the Integration Process inside a **CHERI-based Trusted Execution Environment (TEE)** on an **Arm Morello Board**. The remote digital services remain in conventional environments, but they only process requests after validating an **attestation certificate** associated with the execution environment of the Integration Process.
+The solution executes the Integration Process inside a **CHERI-based Trusted Execution Environment (TEE)** on an **ARM Morello Board**. The remote digital services remain in conventional environments, but they only process requests after validating an **attestation certificate** associated with the execution environment of the Integration Process.
 
 ## Conceptual view of the pilot integration project
 
