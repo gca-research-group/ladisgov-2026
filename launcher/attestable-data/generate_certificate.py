@@ -20,7 +20,7 @@ def run_command(command):
         raise
 
 # Base directories
-base_dir = "/home/regis/tee-compartmentalisation-study-case/launcher"
+base_dir = "../tee-compartmentalisation-study-case/launcher"
 executables_dir = os.path.join(base_dir, "programs-data-base/cheri-caps-executables")
 certificates_base_dir = os.path.join(base_dir, "programs-data-base/certificates")
 signature_base_dir = os.path.join(base_dir, "attestable-data/signatures")
@@ -117,7 +117,7 @@ subject = issuer = x509.Name([
     x509.NameAttribute(NameOID.COUNTRY_NAME, u"BR"),
     x509.NameAttribute(NameOID.STATE_OR_PROVINCE_NAME, u"Rio Grande do Sul"),
     x509.NameAttribute(NameOID.LOCALITY_NAME, u"Ijui"),
-    x509.NameAttribute(NameOID.ORGANIZATION_NAME, u"Unijui"),
+    x509.NameAttribute(NameOID.ORGANIZATION_NAME, u"University"),
     x509.NameAttribute(NameOID.COMMON_NAME, u"Integration Process Certificate"),
 ])
 
