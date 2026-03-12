@@ -21,9 +21,7 @@ This pilot was designed to avoid manual transcription between systems and to red
 
 The figure below presents the implementation architecture adopted in this repository. It must be kept in the repository because it documents the architecture discussed in the article.
 
-<p align="center">
-  <img src="./figures/trusted-environment.jpg" width="700" title="Interaction between digital services and the CHERI-based integration process.">
-</p>
+![Interaction between digital services and the CHERI-based integration process.](./figures/trusted-environment.jpg)
 
 The architecture contains two execution domains:
 
