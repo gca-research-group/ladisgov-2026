@@ -25,8 +25,6 @@ The figure below presents the implementation architecture adopted in this reposi
   <img src="./figures/trusted-environment.jpg" width="700" title="Interaction between digital services and the CHERI-based integration process.">
 </p>
 
-If your repository currently stores this figure only in EPS format, export it to `./figs/trusted-environment.png` so that GitHub can render it in the README.
-
 The architecture contains two execution domains:
 
 - **Digital Government Infrastructure (conventional environment):**
