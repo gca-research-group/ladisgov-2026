@@ -92,18 +92,18 @@ A typical project organisation is the following:
 │   ├── priv.pem
 │   └── ...
 ├── launcher/
-│   ├── launcher.py
-│   ├── command-line-interface.py
-│   ├── keys/
-│   ├── attestable-data/
-│   │   ├── generate_certificate.py
-│   │   └── signatures/
-│   └── programs-data-base/
-│       ├── sources/
-│       ├── cheri-caps-executables/
-│       └── certificates/
-├── integration_process/
-    └── integration_process_healthcare_cheri.c
+    ├── launcher.py
+    ├── command-line-interface.py
+    ├── keys/
+    ├── attestable-data/
+    │   ├── generate_certificate.py
+    │   └── signatures/
+    └── programs-data-base/
+        ├── sources/
+        │   └── integration_process_healthcare_cheri.c
+        ├── cheri-caps-executables/
+        └── certificates/
+
 ```
 
 ## Dependencies
