@@ -262,26 +262,3 @@ export MESSAGING_HOST="<host>"
 export MESSAGING_PORT="<port>"
 export MESSAGING_ENDPOINT="/api/notifications"
 ```
-
-## What is protected in this pilot
-
-The central concern of this pilot is **data in use**. HTTPS or VPN can protect data while they are in transit, but they do not protect sensitive data while those data are loaded into the memory of the Integration Process. In this repository, the Integration Process executes inside a CHERI-based TEE so that the data retrieved from digital services are processed within a protected execution environment.
-
-## Expected outcome
-
-When the pilot is correctly configured and executed:
-
-- the Health Registry Service returns patient data;
-- the Hospital Service accepts the synchronisation request only after validating the attestation certificate;
-- the Messaging Service accepts the notification request only after validating the attestation certificate;
-- the Integration Process runs inside a compartmentalised CHERI environment on the ARM Morello Board.
-
-## Notes
-
-- If the repository contains only the article figures in EPS format, export them to PNG for GitHub rendering.
-- If your infrastructure uses a different header name for the attestation certificate, update the Integration Process source accordingly.
-- If the Launcher later produces a CA-signed `signedCert` instead of `certificate.pem`, update the Integration Process to send that artefact in outgoing requests.
-
-## Acknowledgements
-
-This pilot integration project was developed in the context of research on CHERI-based trusted execution environments and digital government integration workflows involving the Arm Morello Board and the CAMB project.
