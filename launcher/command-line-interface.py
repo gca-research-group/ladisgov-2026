@@ -1,9 +1,4 @@
 ##
-# Programmer   : Regis Rodolfo Schuch
-# Date         : 10 June 2024
-#              : Applied Computing Research Group, Unijui University, Brazil
-#              : regis.schuch@unijui.edu.br
-#              :
 # Title        : command-line-interface.py 
 #              :
 # Description  : The command-line-interface.py programme provides a command-line interface (CLI) for interacting with launcher.py which
