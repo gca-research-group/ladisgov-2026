@@ -22,7 +22,7 @@ This pilot was designed to avoid manual transcription between systems and to red
 The figure below presents the implementation architecture adopted in this repository. It must be kept in the repository because it documents the architecture discussed in the article.
 
 <p align="center">
-  <img src="./figs/trusted-environment.jpg" width="700" title="Interaction between digital services and the CHERI-based integration process.">
+  <img src="./figures/trusted-environment.jpg" width="700" title="Interaction between digital services and the CHERI-based integration process.">
 </p>
 
 If your repository currently stores this figure only in EPS format, export it to `./figs/trusted-environment.png` so that GitHub can render it in the README.
