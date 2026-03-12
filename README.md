@@ -33,7 +33,7 @@ The architecture contains two execution domains:
   - Messaging Service
   - Each service keeps its own local repository and validates incoming requests through `verifyCertificate()`.
 
-- **Trusted Execution Environment (Arm Morello Board):**
+- **Trusted Execution Environment (ARM Morello Board):**
   - Launcher
   - Integration Process
   - Memory compartment configured with CHERI capabilities
@@ -206,7 +206,7 @@ launcher/programs-data-base/sources/
 ```
 
 ### Step 4 — Compile the Integration Process for CHERI
-Compile the uploaded source code for the Arm Morello CHERI environment.
+Compile the uploaded source code for the ARM Morello CHERI environment.
 
 The compilation expected by the article uses the following flags:
 
@@ -276,7 +276,7 @@ When the pilot is correctly configured and executed:
 - the Health Registry Service returns patient data;
 - the Hospital Service accepts the synchronisation request only after validating the attestation certificate;
 - the Messaging Service accepts the notification request only after validating the attestation certificate;
-- the Integration Process runs inside a compartmentalised CHERI environment on the Arm Morello Board.
+- the Integration Process runs inside a compartmentalised CHERI environment on the ARM Morello Board.
 
 ## Notes
 
