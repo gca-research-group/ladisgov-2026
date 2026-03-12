@@ -106,8 +106,6 @@ A typical project organisation is the following:
     └── integration_process_healthcare_cheri.c
 ```
 
-Adapt the names of the service directories and scripts to your local repository if they differ.
-
 ## Dependencies
 
 ### Conventional digital services
